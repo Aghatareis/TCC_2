@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,18 +14,35 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <img src="" alt="Icone de perfil" />
-    </header>
 
+    <header>
+      <div>
+        <img src="./IMG/perfil-user.svg.svg" alt="Icone de perfil" />
+      </div>
+    </header>
+      <!------------------------------------------------Script de Libras-------------------------------------->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget();
+    </script>
+      <!------------------------------------------------Script de Libras-------------------------------------->
     <main>
       <section>
         <div>
           <h2>Emily Bronte</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="/IMG/O morro dos ventos uivantes.jpeg" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/emily-bronte.html">
+                <img
+                  src="./IMG/O morro dos ventos uivantes.jpeg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
           </ul>
@@ -39,8 +56,8 @@
           <h2>Anne Frank</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="/assets/Diario de anne frank.jpg" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/diario.html">
+                <img src="./IMG/Diario de anne frank.jpg" alt="Foto do livro" />
               </a>
             </li>
           </ul>
@@ -54,24 +71,27 @@
           <h2>Machado De Assis</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="/assets/dom casmurro.jpg" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/dom-casmurro.html">
+                <img src="./IMG/dom casmurro.jpg" alt="Foto do livro" />
               </a>
             </li>
 
             <!------------------------------------------------ livros de diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="/assets/ De Assis - Memoria de brás cubas.jpg" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/bras-cubas.html">
+                <img
+                  src="./IMG/Machado De Assis - Memoria de brás cubas.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
 
             <!------------------------------------------------livros de diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="/assets/quincas borba.jpg" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/quincas-borba.html">
+                <img src="./IMG/quincas borba.jpg" alt="Foto do livro" />
               </a>
             </li>
           </ul>
@@ -83,10 +103,10 @@
       <section>
         <div>
           <h2>Manuel Bandeira</h2>
-          <ul>
+          <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/antalogia-poetica.html">
+                <img src="./IMG/antologia poetica.jpg" alt="Foto do livro" />
               </a>
             </li>
           </ul>
@@ -98,10 +118,10 @@
       <section>
         <div>
           <h2>Carlos Drummond De Andrade</h2>
-          <ul>
+          <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/nova-reuniao.html">
+                <img src="./IMG/nova reunião.jpg" alt="Foto Do livro" />
               </a>
             </li>
           </ul>
@@ -112,18 +132,18 @@
       <section>
         <div>
           <h2>Graciliano Ramos</h2>
-          <ul>
+          <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/angustia.html">
+                <img src="./IMG//angustia.jpg" alt="Foto do livro" />
               </a>
             </li>
 
             <!------------------------------------------------livros de  diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/vida-secas.html">
+                <img src="./IMG/vida secas.jpg" alt="Foto do livro" />
               </a>
             </li>
           </ul>
@@ -136,24 +156,30 @@
           <h2>Cecília Meireles</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/maria-fernanda.html">
+                <img src="./IMG/maria fernandaa.jpg" alt="Foto do livro" />
               </a>
             </li>
 
             <!------------------------------------------------livros de  diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="foto do livro" />
+              <a target="_blank" href="./HTML/antalogia-cecilia.html">
+                <img
+                  src="./IMG/antolodia poetica - cecilia meireles.jpg"
+                  alt="foto do livro"
+                />
               </a>
             </li>
 
             <!------------------------------------------------livros de  diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/romanceiro.html">
+                <img
+                  src="./IMG/ramanceiro da inconfidencia - cecilia meireles.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
           </ul>
@@ -166,14 +192,17 @@
           <h2>José De Alencar</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/senhora.html">
+                <img
+                  src="./IMG/senhora - jose alencar.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/til.html">
+                <img src="./IMG/til - josé alencar.jpg" alt="Foto do livro" />
               </a>
             </li>
           </ul>
@@ -186,24 +215,33 @@
           <h2>Jorge Amado</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/capitãs de areia.html">
+                <img
+                  src="./IMG/jorge amado - capitãs de  areia.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
 
             <!------------------------------------------------ livros de diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/gabriela-cravo-e-canela.html">
+                <img
+                  src="./IMG/jorge amado - Gabriela, cravo e canela.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
 
             <!------------------------------------------------livros de diferentes-------------------------------------->
 
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto do livro" />
+              <a target="_blank" href="./HTML/a-morte-e-a-morte.html">
+                <img
+                  src="./IMG/jorge amado - morte e a morte de quincas berro d'agua.jpg"
+                  alt="Foto do livro"
+                />
               </a>
             </li>
           </ul>
@@ -216,8 +254,11 @@
           <h2>Aluíso Azevedo</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/cortico.html">
+                <img
+                  src="./IMG/aluiso de azevedo - o cortiço.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>
@@ -230,8 +271,11 @@
           <h2>Bernado Carvalho</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/nove-noites.html">
+                <img
+                  src="./IMG/bernardo carvalho - nove noites.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>
@@ -241,11 +285,14 @@
 
       <section>
         <div>
-          <h2>Camila Castelo Branco</h2>
+          <h2>Camilo Castelo Branco</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/camilo.html">
+                <img
+                  src="./IMG/camila castelo branco - amor de perdição.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>
@@ -258,8 +305,11 @@
           <h2>Lima Barreto</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/lima-barreto.html">
+                <img
+                  src="./IMG/Lima barreto - triste fim de policarpo quaresma.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>
@@ -272,8 +322,11 @@
           <h2>Thomaz Antônio Gonzaga</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/thomaz-gonzaga.html">
+                <img
+                  src="./IMG/thomaz antonio gonzaga - marilia de ericeu.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>
@@ -286,8 +339,11 @@
           <h2>Jane Austen</h2>
           <ul class="author-list">
             <li>
-              <a target="_blank" href="">
-                <img src="" alt="Foto Do livro" />
+              <a target="_blank" href="./HTML/jane-austen.html">
+                <img
+                  src="./IMG/jane austen - orgulho e preconceito.jpg"
+                  alt="Foto Do livro"
+                />
               </a>
             </li>
           </ul>

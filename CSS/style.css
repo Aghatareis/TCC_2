@@ -11,10 +11,6 @@ ul {
 }
 
 body {
-    background-image: url(/assets/fundo.jpg);
-    background-position: top center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
     background-color: #A289D9;
 }
 
@@ -26,9 +22,6 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background-image: linear-gradient(90deg, #A289D9 0%, #CCC2F2.52%, #7E60BF 100%);
-
-    border-radius: 50%;
 
     display: flex;
     padding: 4px;
@@ -64,7 +57,7 @@ section{
 }
 
 section div {
-    background-color: #A289D9;
+    background-color: #2F0459;
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
@@ -90,4 +83,48 @@ section ul li {
 .author-list img {
     width: 90px;
     border-radius: 8px;
+}
+
+header div {
+    animation: fromTop .7s .2s backwards;
+}
+
+main section {
+    animation: fromBottom .7s backwards;
+}
+
+main section:nth-child(1) {
+    animation-delay: 0;
+}
+
+main section:nth-child(2) {
+    animation-delay: .4s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .8s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -7,16 +7,17 @@
 }
 
 body {
-    background-color: #A289D9;
+    background-color:  #A289D9;
 }
 
-.nav-conteiner {
+.nav-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-conteiner img {
+
+.nav-container img {
     max-width: 200px;
     max-height: 200px;
     border-radius: 400px;
@@ -24,7 +25,26 @@ body {
     justify-items: center;
 }
 
-.container {
+header {
+    padding-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+.conteiner {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -32,6 +52,7 @@ body {
 }
 
 .container img {
+    padding-top: 100px;
     max-width: 550px;
     max-height: 550px;
     width: auto;
@@ -43,31 +64,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
 
+
 .right-container {
-    flex: 2;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-#texto-1 {
+#text-1{
     color: black;
-    background-color: #f8f7ff;
+    text-align: center;
+    background-color: white;
     border-radius: 6px;
     width: 80%;
     padding: 6px;
     height: auto;
     margin: 20px;
-    
-
 }
 
-#texto-2 {
+#text-2 {
     color: white;
+    text-align: center;
     background-color: #808080;
     border-radius: 6px;
     width: 80%;

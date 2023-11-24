@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ main {
     margin-top: 32px;
 }
 
-section{
+section {
     color: white;
     background-image: linear-gradient(90deg, #A289D9 0%, #CCC2F2.52%, #7E60BF 100%);
     padding-top: 4px;
@@ -74,6 +74,20 @@ section ul {
 
     margin-top: 24px;
 
+}
+
+.container-save {
+    position: relative;
+    width: 100%;
+
+}
+
+.container-save img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
 }
 
 section ul li {

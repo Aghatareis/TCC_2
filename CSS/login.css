@@ -105,3 +105,27 @@
     color: #000;
 }
 
+@media only screen and (max-width: 950px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .form {
+        width: 75%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .form {
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn-Entrar {
+        width: 25%;
+        height: auto;
+    }
+}

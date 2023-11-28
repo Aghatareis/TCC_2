@@ -77,34 +77,34 @@ header div:hover {
 .text-background {
     background: linear-gradient(90deg, #A289D9 0%, #CCC2F2.52%, #7E60BF 100%);
     width: 1200px;
-    height: 254px;
-    padding: 5px;
+    height: auto;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px white;
     margin: 25px;
 }
 
+
+
 #text-1 {
     color: white;
     background: #2F0459;
     width: 100%;
-    height: 244px;
-    padding: 5px;
+    height: auto;
+    padding: 25px;
     border-radius: 1rem;
     text-align: center;
     margin: 5px;
 }
 
-#text-1 h2 {
-    margin-bottom: 10px;
-}
+
 
 #text-2 {
     color: white;
     background: #2F0459;
     width: 100%;
-    height: 244px;
-    padding: 5px;
+    height: auto;
+    padding: 25px;
     border-radius: 1rem;
     text-align: center;
+    margin: 5px;
 }
